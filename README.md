@@ -56,12 +56,14 @@
 *Dynamically assigned selectors and configurable expected results*
 - *translateData.json*
     - Used data from this test data file to dynamically assign selectors based on languages defined in it.
-    - Because there was no ***source of truth*** for additional test words and expected translation results, especially for translation results after swapped languages, I added attributes to the config file to indicate the expected results.  That is, the application cannot be relied upon to translate the same in both directions, so to allow for full testing when a translation is known to not be consistent when swapped, the source of truth can be defined in the data file.
+    - Because there was no ***source of truth*** for additional test words and expected translation results, especially for translation results after swapped languages, I added attributes to the data file to indicate the expected results.  That is, the application cannot be relied upon to translate the same in both directions, so to allow for full testing when a translation is known to not be consistent when swapped, the source of truth can be defined in the data file.
 
 *Capture and display page errors not affecting test*
 - Setup event handlers and capture page errors for output at end of test run.
 
 ## Execution
+- After cloning the repo, install required packages
+--     ```npm install```
 - From a "Git Bash" terminal
 --     ```FORCE_COLOR=YES npm run translate```
 - From a "Visual Studio Code" terminal
