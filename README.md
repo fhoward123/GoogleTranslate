@@ -7,7 +7,8 @@
    - enter the initial text in the input field on the left
    - make sure that the actual translation result in the right field is correct
 
-   > Source, Translation languages, initial text and expected result should be taken from a separate data file (.json, .yaml, or .xlsx), for example (but not necessarily the exact word!):
+     > Source, Translation languages, initial text and expected result should be taken from a separate data file (.json, .yaml, or .xlsx), for example (but not necessarily the exact word!):
+
    - source language: German
    - translation language: Spanish
    - initial text: "Demokratien"
