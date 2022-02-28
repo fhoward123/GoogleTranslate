@@ -28,6 +28,9 @@ coverage
 # mochawesome report
 mochawesome-report
 
+# Current screen shots
+test/integration/screenshots/*/current
+
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
